@@ -35,7 +35,7 @@
 					<ul class="nav navbar-nav">
 						<li><a href="./home">Home</a></li>
 						<li><a href="#">Payment History</a></li>
-						<li><a href="#">Search for Account</a></li>
+						<li><a href="./searchAcct">Search for Account</a></li>
 						<li><a href="#">Logout</a></li>
 					</ul>
 					<div class="nav navbar-nav navbar-right">
