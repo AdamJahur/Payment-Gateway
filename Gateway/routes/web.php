@@ -12,5 +12,17 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('login');
+});
+
+Route::get('/home', function () {
+	return view('home');
+});
+
+Route::get('/paymentHistory', function () {
+	return view('paymentHistory');
+});
+
+Route::get('/searchAcct', function () {
+	return view('searchAcct');
 });
