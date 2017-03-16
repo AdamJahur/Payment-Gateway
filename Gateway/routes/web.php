@@ -26,3 +26,16 @@ Route::get('/paymentHistory', function () {
 Route::get('/searchAcct', function () {
 	return view('searchAcct');
 });
+
+Route::get('/homeCustomer', function () {
+	return view('homeCustomer');
+});
+
+Route::get('/customerProfile', function () {
+	return view('customerProfile');
+});
+
+Route::get('/paymentHistoryCustomer', function () {
+	return view('paymentHistoryCustomer');
+});
+
