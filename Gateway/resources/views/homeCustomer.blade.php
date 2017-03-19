@@ -13,6 +13,16 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;    
+}
+</style>
 <body>
 
 	<nav class="navbar navbar-default">
@@ -43,7 +53,7 @@
 		</div><!-- /.container-fluid -->
 	</nav>
 <div class="container">
-	<div class="row" style="border: 1px black solid">
+	<div class="row">
 		<div class="col-md-4">
 			<h4 id="company">Best Buy</h4>
 			<h4 id="address">11 Orlando Way, Orlando FL, 32828</h4>
@@ -61,8 +71,8 @@
 	</div>
 </div>
 
-	<div class="row" style=" margin-top: 50px;">
-		<div class="col-md-7" style="border: solid 2px black;">
+	<div class="row" style=" margin-top: 50px; margin-left: 280px; margin-right: 280px;  border: solid 1px black;">
+		<div class="col-md-10">
 			 <form class="form-horizontal" role="form">
     <fieldset style="margin-right: 300px">
       <legend>Payment</legend>
@@ -131,15 +141,26 @@
     </fieldset>
   </form>
 		</div>
-
-	<div class="col-md-5" style="border: solid 2px black;">
-		<h3 style="text-align: center;">Table of Services</h3><br>
-		<h5 id="due">Money Owed: $700</h5><br><br>
-		<h5 id="dueDate">Due Date: 03/17/17</h5><br><br>
-		<h5 id="posted">Date Posted: 02/17/17</h5><br>
+    </div>
+<div class="container" style="margin-top: 30px;">
+<div class="row">
+  <div class="col-md-12">
+<table style="width:100%">
+  <tr>
+    <th>Money Owed</th>
+    <th>Due Date:</th>
+    <th>Date Posted:</th>
+  </tr>
+  <tr>
+    <td>$700</td>
+    <td>03/18/17</td>
+    <td>02/18/17</td>
+  </tr>
+</table>
 
 	</div>
 	</div>
+  </div>
 
 
 </body>
