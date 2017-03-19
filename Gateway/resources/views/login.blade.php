@@ -24,7 +24,7 @@
         </div>
         <div class="modal-body">
         	<form>
-        		<table>
+        		<table align="center">
         			<tr>
         				<td>Username:</td>
         				<td><input type="text" name="username" class="input"></td>
@@ -33,7 +33,10 @@
         				<td>Password:</td>
         				<td><input type="Password" name="password" class="input"></td>
         			</tr>
+              <br>
         		</table>
+            <br>
+            <input type="submit" class="btn btn-success" name="Login">
         	</form>
         </div>
         <a href="#"><p>Click here to sign up</p></a>
