@@ -45,8 +45,76 @@
 			</div><!-- /.container-fluid -->
 		</nav>
 	</header>
+	<style> 
+input[type=text] {
+    width: 130px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-left: 20px;
+}
 
-	<div><h1>Search for Accounts here!!!</h1></div>
+input[type=text]:focus {
+    width: 90%;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+</style>
+</head>
+<body>
+
+<form>
+  <input type="text" name="search" placeholder="Search..">
+  <button type="submit">Submit</button>
+</form>
+
+<div class="col-lg-12" style="margin-top: 100px;">
+	<table>
+  <tr>
+    <th>Account Number</th>
+    <th>Customer Name</th>
+    <th>Phone Number</th>
+    <th>Email Address</th>
+  </tr>
+  <tr>
+    <td>4525224</td>
+    <td>Thomas Smith</td>
+    <td>321-258-5856</td>
+    <td>none@none.com</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+
+</table>
+</div>
 
 </body>
 </html>
