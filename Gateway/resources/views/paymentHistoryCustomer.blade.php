@@ -2,9 +2,15 @@
 <html>
 <head>
 	<meta charset="utf-8">
+
+
+	<title>Company Home Page</title>
+
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Customer Payment History</title>
+	<title>Payment History</title>
+
+
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -14,7 +20,20 @@
 
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
 </head>
+<style>
+p {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0;
+}
+p {
+    padding: 5px;
+    text-align: left;    
+}
+</style>
 <body>
 
 	<nav class="navbar navbar-default">
@@ -33,9 +52,9 @@
 			<!-- Collect the nav links, forms, and other content for toggling -->
 			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav">
-					<li><a href="#">Home</a></li>
-					<li><a href="#">Profile</a></li>
-					<li><a href="#">Payment History</a></li>
+					<li><a href="./homeCustomer">Home</a></li>
+					<li><a href="./customerProfile">Profile</a></li>
+					<li><a href="./paymentHistoryCustomer">Payment History</a></li>
 					<li><a href="#">Logout</a></li>
 				</ul>
 				<div class="nav navbar-nav navbar-right">
@@ -48,9 +67,7 @@
 
 		<div class="row">
 			<div class="col-md-12">
-				<h5 id="account">Acount Number:4929050</h5>
-			</div>
-		</div>
+		
 		<div class="row" style="margin-left: 60px;">
 			<div class="col-md-2">
 				<p id="money">$500</p>
@@ -89,5 +106,10 @@
 				<p id="service">Boat</p>
 			</div>
 		</div>
+
+
+
+
+
 </body>
 </html>
