@@ -41,3 +41,5 @@ Route::get('/paymentHistoryCustomer', function () {
 
 Route::post('/loginme', 'loginController@login');
 
+Route::post('/loginme', 'loginController@loginCompany');
+
