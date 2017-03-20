@@ -13,9 +13,15 @@ class loginController extends BaseController
     public function login(Request $req) {
     	$username = $req->input('username');
     	$password = $req->input('password');
-    	echo $username. "...." . $password;
+    	return redirect('homeCustomer');
     }
+    public function loginCompany(Request $req) {
+    	$username = $req->input('username');
+    	$password = $req->input('password');
+    	return redirect('home');
 }
+ }
+
 
 
 
