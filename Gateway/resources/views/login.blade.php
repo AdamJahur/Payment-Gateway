@@ -23,27 +23,17 @@
         	<h4 class="modal-title">Fill in the information</h4>
         </div>
         <div class="modal-body">
-        	<form>
-        		<table align="center">
-        			<tr>
-        				<td>Username:</td>
-        				<td><input type="text" name="username" class="input"></td>
-        			</tr>
-        			<tr>
-        				<td>Password:</td>
-        				<td><input type="Password" name="password" class="input"></td>
-        			</tr>
-              <br>
-        		</table>
-            <br>
-            <input type="submit" class="btn btn-success" name="Login">
-        	</form>
+            <form action="/loginme" method="post">
+              <input type="hidden" name="_token" value="{{ csrf_token() }}">
+              USERNAME: <input type="text" name="username"><br/>
+              PASSWORD: <input type="password" name="password"><br/>
+              <input type="submit" name="login" value="Login">
+          </div>
+          <a href="#"><p>Click here to sign up</p></a>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
+          </div>
         </div>
-        <a href="#"><p>Click here to sign up</p></a>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-warning" data-dismiss="modal">Close</button>
-        </div>
-      </div>
       
     </div>
   </div>
