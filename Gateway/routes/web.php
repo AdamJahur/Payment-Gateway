@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('login');
 });
 
+Route::get('/loginCompany', function () {
+	return view('loginCompany');
+});
+
 Route::get('/home', function () {
 	return view('home');
 });
@@ -41,5 +45,5 @@ Route::get('/paymentHistoryCustomer', function () {
 
 Route::post('/loginme', 'loginController@login');
 
-Route::post('/loginme', 'loginController@loginCompany');
+Route::post('/loginCompany', 'loginControllerCompany@login');
 
