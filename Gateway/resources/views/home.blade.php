@@ -67,7 +67,7 @@ th {
 		<div class="buttons"></div>
 
 		<svg width="100" height="100" class="chart">
-			<circle r="50" cx="50" cy="50" class="pie"/>
+			<circle r="50" cx="50" cy="50" class="pie">
 		</svg>
 	</figure>
 
@@ -104,6 +104,7 @@ th {
 
 		</table>
 		</div>
+	</div>
 
 
 

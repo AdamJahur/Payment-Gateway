@@ -24,14 +24,17 @@
 
 </head>
 <style>
-p {
+table, td, th {
     border: 1px solid black;
-    border-collapse: collapse;
-    margin: 0;
 }
-p {
-    padding: 5px;
-    text-align: left;    
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50px;
 }
 </style>
 <body>
@@ -65,47 +68,37 @@ p {
 	</nav>
 
 
-		<div class="row">
-			<div class="col-md-12">
-		
-		<div class="row" style="margin-left: 60px;">
-			<div class="col-md-2">
-				<p id="money">$500</p>
-				<p id="paid">08/09/1994</p>
-				<p id="type">Credit Card</p>
-				<p id="service">Boat</p>
-			</div>
-				<div class="col-md-2">
-				<p id="money">$500</p>
-				<p id="paid">08/09/1994</p>
-				<p id="type">Credit Card</p>
-				<p id="service">Boat</p>
-			</div>
-				<div class="col-md-2">
-				<p id="money">$500</p>
-				<p id="paid">08/09/1994</p>
-				<p id="type">Credit Card</p>
-				<p id="service">Boat</p>
-			</div>
-				<div class="col-md-2">
-				<p id="money">$500</p>
-				<p id="paid">08/09/1994</p>
-				<p id="type">Credit Card</p>
-				<p id="service">Boat</p>
-			</div>
-				<div class="col-md-2">
-				<p id="money">$500</p>
-				<p id="paid">08/09/1994</p>
-				<p id="type">Credit Card</p>
-				<p id="service">Boat</p>
-			</div>
-				<div class="col-md-2">
-				<p id="money">$500</p>
-				<p id="paid">08/09/1994</p>
-				<p id="type">Credit Card</p>
-				<p id="service">Boat</p>
-			</div>
-		</div>
+	<div class="row">
+		<div class="col-md-12">
+
+
+			<table>
+				<tr>
+					<th>Amount Due</th>
+					<th>Paid Date</th>
+					<th>Type of Payment</th>
+					<th>Service</th>
+				</tr>
+				<tr>/
+					<td>/500</td>
+					<td>08/08/08</td>
+					<td>Visa</td>
+					<td>PS4</td>
+				</tr>
+				<tr>
+					<td>$2000</td>
+					<td>01/01/01</td>
+					<td>Debit</td>
+					<td>Car Payment</td>
+				</tr>
+				<tr>
+					<td>$4000</td>
+					<td>02/02/02</td>
+					<td>Mastercard</td>
+					<td>Boat</td>
+				</tr>
+
+			</table>
 
 
 

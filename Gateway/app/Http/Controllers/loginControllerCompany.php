@@ -8,12 +8,12 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Http\Request;
 
-class loginController extends BaseController
+class loginControllerCompany extends BaseController
 {
     public function login(Request $req) {
-    	$username = $req->input('username');
-    	$password = $req->input('password');
-    	return redirect('homeCustomer');
+    	$username = $req->input('usernameTwo');
+    	$password = $req->input('passwordTwo');
+    	return redirect('home');
     }
 
 
@@ -21,3 +21,8 @@ class loginController extends BaseController
 
 
 ?>
+
+
+
+
+
