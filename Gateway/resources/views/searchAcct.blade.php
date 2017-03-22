@@ -15,6 +15,10 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
+  <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css">
+
+  <script src="//cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+
 </head>
 <body>
 	<header>
@@ -115,6 +119,13 @@ th {
 
 </table>
 </div>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+  $('#myTable').DataTable();
+});
+</script>
+
 
 </body>
 </html>
